@@ -132,7 +132,7 @@ async function recursiveExploration(page, link, depth, parentState){
     return;
   } 
   console.log("Exploring");
-  await page.goto(link, {waitUntil: 'networkidle2'}).catch((err)=>{
+  await page.goto(link, {waitUntil: 'networkidle0'}).catch((err)=>{
     console.log(err); 
     return; 
   });
