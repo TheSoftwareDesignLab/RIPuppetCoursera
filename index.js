@@ -99,6 +99,7 @@ console.log(inputValues);
       browser.close();
 
       fs.copyFileSync('./index.html', `${basePath}/report.html`);
+      fs.copyFileSync('./main.css', `${basePath}/main.css`);
     }
 
     console.log('------------------------------------------------------------------------------------')

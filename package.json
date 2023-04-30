@@ -4,7 +4,8 @@
   "description": "NodeJS library for GUI ripping on web applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "setup": "playwright init"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "firebase": "^9.21.0",
     "node-html-parser": "^1.2.12",
     "playwright": "^1.33.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
   }
 }
