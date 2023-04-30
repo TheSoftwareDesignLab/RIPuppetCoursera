@@ -8,5 +8,5 @@
         "passwordTwoInput": "123456",
         "nameInput": "Mario",
         "emailInput": "mario@b.com"},
-    "browsers": ["chromium", "webkit", "firefox"]
+    "browsers": ["chromium", "firefox"]
 }
