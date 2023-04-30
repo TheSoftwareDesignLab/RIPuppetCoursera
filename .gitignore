@@ -8,3 +8,6 @@ temp*/
 *graph3.json
 firebaseConfig.js
 results/
+/test-results/
+/playwright-report/
+/playwright/.cache/
