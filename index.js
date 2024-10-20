@@ -2,7 +2,7 @@
 let playwright = require('playwright');
 const fs = require('fs');
 const path = require('path');
-const faker = require('faker');
+const { faker } = require('@faker-js/faker');
 const parser = require('node-html-parser');
 
 //Constants
@@ -132,7 +132,7 @@ async function recursiveExploration(page, link, depth, parentState){
     return;
   } 
   console.log("Exploring");
-  await page.goto(link, {waitUntil: 'networkidle2'}).catch((err)=>{
+  await page.goto(link, {waitUntil: 'networkidle'}).catch((err)=>{
     console.log(err); 
     return; 
   });
@@ -630,7 +630,7 @@ async function fillInput(elementHandle, page){
   }, elementHandle);
   if(type === 'text'){
     elementHandle.click();
-    page.keyboard.type(faker.random.words());
+    page.keyboard.type(faker.lorem.words());
   }
   else if(type === 'search'){
     elementHandle.click();
