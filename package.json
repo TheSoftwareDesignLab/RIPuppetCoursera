@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/jm-dominguez/RIPuppet#readme",
   "dependencies": {
-    "faker": "^4.1.0",
-    "firebase": "^7.10.0",
-    "node-html-parser": "^1.2.12",
-    "playwright": "^0.11.1"
+    "@faker-js/faker": "^9.0.3",
+    "firebase": "^10.14.1",
+    "node-html-parser": "^6.1.13",
+    "playwright": "^1.48.1"
   }
 }
