@@ -4,7 +4,8 @@
   "description": "NodeJS library for GUI ripping on web applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "setup": "npx playwright install"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
   "homepage": "https://github.com/jm-dominguez/RIPuppet#readme",
   "dependencies": {
     "faker": "^4.1.0",
-    "firebase": "^9.21.0",
+    "firebase": "^11.0.1",
     "node-html-parser": "^1.2.12",
     "playwright": "^1.33.0"
   },
