@@ -1,6 +1,6 @@
 {
     "url": "https://thesoftwaredesignlab.github.io",
-    "headless": true,
+    "headless": false,
     "depthLevels": 1,
     "inputValues": false,
     "values": {"userInput": "Mario",
@@ -8,5 +8,5 @@
         "passwordTwoInput": "123456",
         "nameInput": "Mario",
         "emailInput": "mario@b.com"},
-    "browsers": ["chromium", "webkit", "firefox"]
+    "browsers": ["chromium", "firefox"]
 }
