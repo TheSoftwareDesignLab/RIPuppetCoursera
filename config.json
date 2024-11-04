@@ -1,12 +1,8 @@
 {
-    "url": "https://thesoftwaredesignlab.github.io",
-    "headless": true,
-    "depthLevels": 1,
-    "inputValues": false,
-    "values": {"userInput": "Mario",
-        "passwordInput": "123456",
-        "passwordTwoInput": "123456",
-        "nameInput": "Mario",
-        "emailInput": "mario@b.com"},
-    "browsers": ["chromium", "webkit", "firefox"]
+  "url": "http://localhost:2368/ghost",
+  "headless": false,
+  "depthLevels": 2,
+  "inputValues": true,
+  "values": { "ember8": "automation@appbajopruebas.com", "ember10": "abc1234567890" },
+  "browsers": ["chromium"]
 }
